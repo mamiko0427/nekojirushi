@@ -19,7 +19,7 @@ $(function () {
   // #maskのエリアをクリックした時にメニューを閉じる
   $("#mask").on("click", function () {
     // #maskをクリックしたときに実行する
-    $("#header").toggleClass("open");
+    $("#header").removeClass("open");
 
   });
 
@@ -27,7 +27,7 @@ $(function () {
   $("#navi a").on("click", function () {
     // #navi aをクリックしたときに実行する
 
-    $("#header").toggleClass("open");
+    $("#header").removeClass("open");
   });
 
 
